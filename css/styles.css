@@ -1,0 +1,103 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: blueviolet;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: aqua;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand h1 {
+  /* Restaurant Name */
+  font-family: "Lora", serif;
+  color: blue;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#nav-list {
+  margin-top: 10px;
+  background-color: skyblue;
+  color: #fff;
+}
+
+#nav-list a {
+  color: #951c49;
+  text-align: center;
+  border: 1px solid #000;
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+#nav-list a span {
+  font-size: 1.8rem;
+}
+
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    /* Restaurant name */
+    padding-top: 10px;
+    font-size: 3vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p {
+    /* Kosher cert */
+    font-size: 0.6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img {
+    /* Star k */
+    height: 20px;
+  }
+
+  #collapsable-nav a {
+    /* Collapsed nav menu glyph */
+    font-size: 1.2em;
+  }
+
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
+.jumbotron {
+  background-color: yellow;
+  color: #000;
+}
+.jumbotron h3 {
+  text-align: center;
+}
+.jumbotron p {
+  text-align: justify;
+}
+#sect {
+  background-color: rebeccapurple;
+  height: 1000px;
+  width: 100%;
+  margin-bottom: 20px;
+}
