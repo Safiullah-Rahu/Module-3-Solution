@@ -24,14 +24,17 @@ div section {
 }
 #section-1{
     background-color: #B3E5FF;
+    border: 1px solid #000;
 }
 
 #section-2 {
     background-color: #FFC7B3;
+    border: 1px solid #000;
 }
 
 #section-3 {
     background-color: #C3FF80;
+    border: 1px solid #000;
 }
 
 #text > h3 {
